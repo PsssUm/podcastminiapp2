@@ -12,8 +12,7 @@ import React, {
   import { WaveSurfer, WaveForm, Region } from "wavesurfer-react";
   import RegionsPlugin from "wavesurfer.js/dist/plugin/wavesurfer.regions.min";
   import TimelinePlugin from "wavesurfer.js/dist/plugin/wavesurfer.timeline.min";
-  var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-  var wavesurfer, context, processor;
+
   var isUndoClicked = false
   function generateNum(min, max) {
     return Math.random() * (max - min + 1) + min;
@@ -171,15 +170,7 @@ import React, {
         console.log(smth);
         props.onCutChanged(region.start, region.end)
       }, []);
-      if (isSafari) {
-        // Safari 11 or newer automatically suspends new AudioContext's that aren't
-        // created in response to a user-gesture, like a click or tap, so create one
-        // here (inc. the script processor)
-        var AudioContext =
-            window.AudioContext || window.webkitAudioContext;
-        context = new AudioContext();
-        processor = context.createScriptProcessor(1024, 1, 1);
-    }
+  
     return (
       
       <div className="App">
@@ -192,8 +183,7 @@ import React, {
                     barGap={3}
                     cursorWidth={2}
                     height={96} progressColor={"#3F8AE0"}
-                    audioContext={context || null}
-                    audioScriptProcessor={processor || null} responsive={true} loopSelection={true} waveColor={"#3F8AE0"} cursorColor={"#FF3347"}  id="waveform">
+                    responsive={true} loopSelection={true} waveColor={"#3F8AE0"} cursorColor={"#FF3347"}  id="waveform">
             {regions.map(regionProps => (
             <Region
               onUpdateEnd={handleRegionUpdate}
