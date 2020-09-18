@@ -2,7 +2,7 @@
   "name": "vk-apps-get-money",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/PsssUm/podcastsminiapp/",
+  "homepage": "https://psssum.github.io/podcastminiapp2/",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
