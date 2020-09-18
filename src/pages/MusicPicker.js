@@ -25,7 +25,7 @@ class MusicPicker extends React.Component {
    
     render() {
         return (
-            <div className="music_picker_container">
+            <div className="music_picker_container main_content">
                  <PanelHeader>
                     <Navbar isShowRightIcon={true} back="edit" onBack={this.props.onBack} title="Выбор музыки"/>
                 </PanelHeader>

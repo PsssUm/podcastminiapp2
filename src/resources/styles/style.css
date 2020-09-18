@@ -136,6 +136,7 @@ input {
   .navbar{
     position: fixed;
     height: 56px;
+    padding-top: var(--safe-area-inset-top);
     top: 0;
     left: 0;
     right: 0;
@@ -153,7 +154,7 @@ input {
     margin: 13px 0px;
   }
   .main_content{
-
+    padding-top: var(--safe-area-inset-top);
   }
   .navbar_line{
     /* background: #D7D8D9; */

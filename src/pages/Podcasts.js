@@ -19,7 +19,7 @@ class Podcasts extends React.Component {
     }
     render() {
         return (
-            <div className="news_content podcasts_bg bot_margin_64">
+            <div className="news_content podcasts_bg bot_margin_64 main_content">
                 <div className="line_bg">
                      <div className="navbar_line ling_bot_4"/>
                 </div>

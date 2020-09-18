@@ -15,7 +15,7 @@ class News extends React.Component {
     }
     render() {
         return (
-            <div className="news_content">
+            <div className="news_content main_content">
                 <div className="line_bg">
                      <div className="navbar_line line_bot_0"/>
                 </div>

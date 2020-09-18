@@ -45,8 +45,7 @@ import React, {
           plugin: RegionsPlugin,
           options: {
             color : "rgba(242, 243, 245, 0.5)",
-            dragSelection: true,
-
+            dragSelection: true
           }
         },
         {
