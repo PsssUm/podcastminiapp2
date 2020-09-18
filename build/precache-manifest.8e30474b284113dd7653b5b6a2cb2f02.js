@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f15af28ed71c1fb151a4104172aff773",
+    "revision": "cf7918f056421956adfd40ab14e8b95e",
     "url": "/podcastminiapp2/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/podcastminiapp2/static/css/2.2cfa1b23.chunk.css"
   },
   {
-    "revision": "e8dafdcf61fac074c060",
-    "url": "/podcastminiapp2/static/css/main.3d67a078.chunk.css"
+    "revision": "a9ef3d501bd9809cf539",
+    "url": "/podcastminiapp2/static/css/main.61d3fad7.chunk.css"
   },
   {
     "revision": "0b75689d3a89567e8724",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/podcastminiapp2/static/js/2.61bcb084.chunk.js.LICENSE"
   },
   {
-    "revision": "e8dafdcf61fac074c060",
-    "url": "/podcastminiapp2/static/js/main.c45d4226.chunk.js"
+    "revision": "a9ef3d501bd9809cf539",
+    "url": "/podcastminiapp2/static/js/main.a5c3e4d8.chunk.js"
   },
   {
     "revision": "ef3ac1e971a1bc6bfb73",

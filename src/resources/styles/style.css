@@ -170,7 +170,7 @@ input {
   .back_icon{
     position: absolute;
     left: 0;
-    top: 4px;
+    bottom: 4px;
     height: 44px;
     width: 44px;
   }
@@ -354,6 +354,7 @@ input {
   right: 0;
   background: white;
   z-index: 999;
+  padding-bottom: var(--safe-area-inset-bottom);
 }
 .bottom_btn_line{
   height: 1px;
@@ -396,5 +397,5 @@ input {
   padding-right: 6px;
 }
 .bot_margin_64{
-  margin-bottom: 84px;
+  margin-bottom: calc(84px + var(--safe-area-inset-bottom));
 }
